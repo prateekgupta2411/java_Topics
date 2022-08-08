@@ -2,8 +2,8 @@ package Pattern;
 
 import java.util.Scanner;
 
-public class pattern_12 {
-	public static void main(String[] args) {
+public class Pattern_12 {
+	public static void main(String srgs[]) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int row = 1;
@@ -17,11 +17,10 @@ public class pattern_12 {
 			}
 			int j = 1;
 			while (j <= star) {
-				if(j%2==0) {
+				if (j % 2 == 0) {
 					System.out.print("! ");
-				}
-				else {
-				System.out.print("* ");
+				} else {
+					System.out.print("* ");
 				}
 				j++;
 			}
@@ -34,3 +33,5 @@ public class pattern_12 {
 	}
 
 }
+
+	
